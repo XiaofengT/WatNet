@@ -1,2 +1,3 @@
-# WatNet
-A deep ConvNet for surface water mapping based on Sentinel-2 image
+# A Simple Practice of Unet Model
+
+Dataset source: https://www.kaggle.com/datasets/franciscoescobar/satellite-images-of-water-bodies?resource=download
