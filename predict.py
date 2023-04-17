@@ -57,8 +57,8 @@ test_X, test_y = images[int(len(images)*0.9):], masks[int(len(images)*0.9):]
 with tf.device("/GPU:0"):
     results = model.fit(
         X, y,
-        epochs=100,
+        epochs=20,
         callbacks=callbacks,
         validation_split=0.1,
-        batch_size=16
+        batch_size=10
     )
